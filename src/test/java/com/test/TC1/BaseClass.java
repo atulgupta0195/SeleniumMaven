@@ -27,7 +27,7 @@ public class BaseClass {
 	@Test
 public void baseSetup() {
 	
-	System.setProperty("webdriver.gecko.driver","F:\\WORKSPACE FOR APPUIM\\Tesing\\DriverFile\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+	System.setProperty("webdriver.gecko.driver","DriverFile\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 	 driver =new FirefoxDriver();
 	 driver.get(url);
 	 driver.quit();
