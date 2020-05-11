@@ -31,7 +31,7 @@ public void baseSetup() {
 	 driver =new FirefoxDriver();
 	 driver.get(url);
 	 System.out.println("---------------the test DOne 12345679ffdjb--------------------------------------------");
-	 driver.quit();
+	// driver.quit();
 }
 
 }
