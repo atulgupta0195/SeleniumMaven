@@ -30,6 +30,7 @@ public void baseSetup() {
 	System.setProperty("webdriver.gecko.driver","DriverFile\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 	 driver =new FirefoxDriver();
 	 driver.get(url);
+	 System.out.println("---------------the test DOne 12345679ffdjb--------------------------------------------");
 	 driver.quit();
 }
 
