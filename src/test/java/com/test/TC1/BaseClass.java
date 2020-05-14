@@ -25,11 +25,13 @@ public class BaseClass {
 	 */
 	
 	@Test
-public void baseSetup() {
+public void baseSetup() throws InterruptedException {
 	
 	System.setProperty("webdriver.gecko.driver","DriverFile\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 	 driver =new FirefoxDriver();
 	 driver.get(url);
+	 Thread.sleep(10000);
+	 System.out.println("the title -----> "+driver.getTitle());
 	 System.out.println("---------------the test DOne 12345679ffdjb--------------------------------------------");
 	// driver.quit();
 }
